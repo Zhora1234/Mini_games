@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    background-image: url("https://avatars.mds.yandex.net/i?id=61e046495d3f6329ccf064ddd878b4c6_l-4575485-images-thumbs&n=13");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .center div {
+
+} */
+
+.first_links{
+    display: flex;
+    flex-direction: row;
+} 
+
+.frst_github_btn {
+    width: 25px;
+    height: 25px;
+    transition-duration: 1s;
+}
+
+.frst_github_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.frst_github_btn:hover {
+    transform: scale(1.1);
+}
+
+.frst_gmail_btn {
+    width: 25px;
+    height: 25px;
+    transition-duration: 1s;
+}
+
+.frst_gmail_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.frst_gmail_btn:hover {
+    transform: scale(1.1);
+}
+
+.frst_tg_btn {
+    width: 25px;
+    height: 25px;
+    transition-duration: 1s;
+}
+
+.frst_tg_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.frst_tg_btn:hover {
+    transform: scale(1.1);
+}
