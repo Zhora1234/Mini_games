@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="background"></div>
         <div class="center">
-            <div>
+            <div class="center-content">
                 <h1>Мини игры!</h1>
                 <p>Здесь есть пару отличных миннигр!</p>
             </div>
@@ -22,33 +22,39 @@
     </header>
 
     <main>
-        <div class="snake">
-            <h1>Игра "Змейка"</h1>
-            <p>В этой игре надо ползать за змейку и кушать фрукты. Ты проигрываешь, если врежешься в стену.</p>
-            <button class="frstbtn">Играть</button>
-        </div>
-        <div class="clicker">
-            <h1>"Кликер"</h1>
-            <p>В этой игре надо кликать и зарабатывать монетки. Также можно покупать улучшения.</p>
-            <button class="scndbtn">Играть</button>
+        <div class="games">
+            <div class="snake">
+                <h1>Игра "Змейка"</h1>
+                <p>В этой игре надо ползать за змейку и кушать фрукты. Ты проигрываешь, если врежешься в стену.</p>
+                <button class="frstbtn">Играть</button>
+            </div>
+            <div class="clicker">
+                <h1>"Кликер"</h1>
+                <p>В этой игре надо кликать и зарабатывать монетки. Также можно покупать улучшения.</p>
+                <button class="scndbtn">Играть</button>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="links">
-            <p>list "developers":</p>
-            <p>Panics, Gosha</p>
-            <p>Page made by Panics</p>
-            <p>links to Panics:</p>
-            <div class="first_links">
-                <div class="frst_github_btn">
-                    <img src="./assets/github.png" alt="">
-                </div>
-                <div class="frst_gmail_btn">
-                    <img src="./assets/gmail_icon.png" alt="">
-                </div>
-                <div class="frst_tg_btn">
-                    <img src="./assets/tg.png" alt="">
+            <div>
+                <p>list "developers":</p>
+                <p>Panics, Gosha</p>
+                <p>Page made by Panics</p>
+            </div>
+            <div>
+                <p>links to Panics:</p>
+                <div class="first_links">
+                    <div class="frst_github_btn">
+                        <img src="./assets/github.png" alt="">
+                    </div>
+                    <div class="frst_gmail_btn">
+                        <img src="./assets/gmail_icon.png" alt="">
+                    </div>
+                    <div class="frst_tg_btn">
+                        <img src="./assets/tg.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
