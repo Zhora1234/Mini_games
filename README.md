@@ -12,6 +12,4 @@
 
 
 
-GitHub: https://github.com/Panicss
-
-Discord: 
+GitHub: https://github.com/Panicss, https://github.com/Zhora1234
