@@ -10,3 +10,7 @@ body {
 .upgs {
     display: none;
 }
+.cookie_count {
+    position: absolute;
+    left: 85vw;
+}
