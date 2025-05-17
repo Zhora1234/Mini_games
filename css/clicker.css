@@ -1,0 +1,16 @@
+.cookie_click {
+    width: 700px;
+    height: 700px;
+    cursor: crosshair;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+.upgs {
+    display: none;
+}
+.cookie_count {
+    position: absolute;
+    left: 85vw;
+}
